@@ -12,8 +12,17 @@
 A ideia geral por trás do estilo de arquitetura hexagonal é que as dependências (adaptadores) exigidas pelo software para executar são usadas atrás de uma interface (porta).
 O software é dividido em Aplicação e Infraestrutura em que os adaptadores são componentes intercambiáveis desenvolvidos e testados isoladamente. O aplicativo é fracamente acoplado aos adaptadores e seus detalhes de implementação.
 
-Onion Architecture Style
-Clean Architecture Style
+#### Onion Architecture Style
+Muito semelhante a Portas e Adaptadores, eu acrescentaria que os objetos de dados cruzam fronteiras como estruturas de dados simples. Por exemplo, quando o controlador executa um caso de uso, ele passa uma mensagem de entrada imutável. Quando os casos de uso chamam um Presenter, ele fornece uma mensagem de Saída (Objetos de Transferência de Dados, se desejar).
+
+#### Clean Architecture Style
+O estilo Clean Architecture se concentra em uma implementação fracamente acoplada de casos de uso e é resumido como:
+1) É um estilo de arquitetura que os Casos de Uso são a estrutura organizadora central.
+2) Segue o padrão Portas e adaptadores.
+3) A implementação é guiada por testes (TDD Outside-In).
+4) Desacoplado de detalhes tecnológicos.
+5) Segue muitos princípios (Princípio das Abstrações Estáveis, Princípio das Dependências Estáveis, SOLID e assim por diante).
+
 
 ### Design Patterns
 Controller
