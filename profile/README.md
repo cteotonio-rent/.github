@@ -4,7 +4,7 @@
 [Aqui está da solicitação](https://github.com/cteotonio-rent/documentacao/blob/main/src/RequisitosDoProjeto.pdf)
 .
 
-## Arquitetura
+## Arquitetura da Solução
 <img src="https://github.com/cteotonio-rent/documentacao/blob/main/src/Architecture%20Diagram.svg" />
 <!--
 
