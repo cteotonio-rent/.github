@@ -6,6 +6,22 @@
 
 ## Arquitetura da Solução
 <img src="https://github.com/cteotonio-rent/documentacao/blob/main/src/Architecture%20Diagram.svg" />
+
+### Arquitetura do Software
+Hexagonal Architecture Style
+Onion Architecture Style
+Clean Architecture Style
+
+### Design Patterns
+Controller
+ViewModel
+Unit of Work
+
+### Domain-Driven Design Patterns
+Entity
+Repository
+Use Case
+
 <!--
 
 **Here are some ideas to get you started:**
