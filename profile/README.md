@@ -1,7 +1,7 @@
 ## Motorcycle rent project 👋
 
 ## Solicitação
-[Aqui está da solicitação](documentacao/src/RequisitosDoProjeto.pdf)
+[Aqui está da solicitação](https://github.com/cteotonio-rent/documentacao/blob/main/src/RequisitosDoProjeto.pdf)
 .
 
 
