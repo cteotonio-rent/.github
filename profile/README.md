@@ -8,7 +8,10 @@
 <img src="https://github.com/cteotonio-rent/documentacao/blob/main/src/Architecture%20Diagram.svg" />
 
 ### Arquitetura do Software
-Hexagonal Architecture Style
+#### Hexagonal Architecture Style
+A ideia geral por trás do estilo de arquitetura hexagonal é que as dependências (adaptadores) exigidas pelo software para executar são usadas atrás de uma interface (porta).
+O software é dividido em Aplicação e Infraestrutura em que os adaptadores são componentes intercambiáveis desenvolvidos e testados isoladamente. O aplicativo é fracamente acoplado aos adaptadores e seus detalhes de implementação.
+
 Onion Architecture Style
 Clean Architecture Style
 
