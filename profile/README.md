@@ -25,14 +25,24 @@ O estilo Clean Architecture se concentra em uma implementação fracamente acopl
 
 
 ### Design Patterns
-Controller
-ViewModel
-Unit of Work
+#### Controller
+Os controladores recebem Solicitações, compilam a mensagem de Entrada e chamam o Caso de Uso, você deve notar que o controlador não cria a Resposta, em vez disso, essa responsabilidade é delegada ao objeto do apresentador.
+
+#### ViewModel
+ViewModels (Neste projeto são as Response Objects) são objetos de transferência de dados, eles serão renderizados pela estrutura MVC, então precisamos seguir as diretrizes da estrutura.
+
+#### Unit of Work
+Classe destinada a realizar o commit das modificações realizadas nas entidades.
 
 ### Domain-Driven Design Patterns
-Entity
-Repository
-Use Case
+#### Entity
+Objetos e mutáveis identificados por seus IDs.
+
+#### Repository
+Fornece recursos de persistência.
+
+#### Use Case
+É o ponto de entrada do aplicativo para uma interação do usuário. Ele aceita uma mensagem de entrada, executa o algoritmo, em seguida, ele deve dar a mensagem de saída para a porta de saída.
 
 <!--
 
