@@ -44,6 +44,8 @@ Fornece recursos de persistência.
 #### Use Case
 É o ponto de entrada do aplicativo para uma interação do usuário. Ele aceita uma mensagem de entrada, executa o algoritmo, em seguida, ele deve dar a mensagem de saída para a porta de saída.
 
+#### Camadas
+<img src="https://github.com/cteotonio-rent/documentacao/blob/main/src/Arquitetura%20do%20Software.svg" />
 <!--
 
 **Here are some ideas to get you started:**
