@@ -46,8 +46,8 @@ Fornece recursos de persistência.
 
 #### Camadas
 <img src="https://github.com/cteotonio-rent/documentacao/blob/main/src/Arquitetura%20do%20Software.svg" />
-**- Communication:** Contém os ViewsModels (Objetos de Requests e Responses)  
-**- Exceptions:** Contém as classes de exceções do projetos, além de um recurso para que o projeto suporte multiplos idiomas  
+- **Communication**: Contém os ViewsModels (Objetos de Requests e Responses)  
+- **Exceptions**: Contém as classes de exceções do projetos, além de um recurso para que o projeto suporte multiplos idiomas  
 <!--
 
 **Here are some ideas to get you started:**
