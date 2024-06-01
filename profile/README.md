@@ -62,7 +62,7 @@ Fornece recursos de persistência.
 - WSL 2 (https://apps.microsoft.com/detail/9P9TQF7MRM4R?hl=pt-br&gl=BR)
 - Draw.io para criação do Diagrama de Arquitetura
 - DbSchema 9.5.4 para criação Digrama de Banco de Dados
-- Terraform para provisionamento de infra (inclusive no LocalStack)
+- Terraform para provisionamento de infra (inclusive no LocalStack) (https://www.terraform.io/), [github](https://github.com/hashicorp/terraform)
 - Git Bash Versão 2.43.0.windows.1 (https://git-scm.com/downloads)
 - Terminal do Windows Versão 1.18 (https://apps.microsoft.com/detail/9N0DX20HK701?hl=pt-br&gl=BR)
 - 
