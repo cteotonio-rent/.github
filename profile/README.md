@@ -58,14 +58,24 @@ Fornece recursos de persistência.
 - Gerenciador de Filas de Mensagens AWS SQS
 - Gerenciador de arquivos S3
 - [LocalStack](https://github.com/localstack/localstack) (Conjunto de ferramenta que simula um ambiente Cloud, neste caso AWS)
-- [Docker Desktop para Windows Versão 4.27.1] (https://www.docker.com/)
+- [Docker Desktop para Windows Versão 4.27.1](https://www.docker.com/)
 - [WSL 2](https://apps.microsoft.com/detail/9P9TQF7MRM4R?hl=pt-br&gl=BR)
 - [Draw.io](https://www.diagrams.net/) para criação do Diagrama de Arquitetura
 - [DbSchema 9.5.4](https://www.dbschema.com/) para criação Digrama de Banco de Dados
 - [Terraform](https://www.terraform.io/) para provisionamento de infra (inclusive no LocalStack) , [github](https://github.com/hashicorp/terraform)
 - [Git Bash Versão 2.43.0.windows.1](https://git-scm.com/downloads)
 - [Terminal do Windows Versão 1.18](https://apps.microsoft.com/detail/9N0DX20HK701?hl=pt-br&gl=BR)
-- 
+
+## Repositórios
+  Este projeto contempla 5 reposórios é recomendado que estes esteja seja clonados no mesmo diretórios ficando com a seguinte estrutura.
+  Aproveite para acessar cadas um deles e verificar sua documentação
+
+### Pasta Raiz
+- [docker](https://github.com/cteotonio-fluxo-caixa/docker)
+- [backend-transacoes](https://github.com/cteotonio-fluxo-caixa/backend-transacoes)
+- [backend-relatorios](https://github.com/cteotonio-fluxo-caixa/backend-relatorios)
+- [backend-usuarios](https://github.com/cteotonio-fluxo-caixa/backend-usuarios)
+- [backend-autenticacao-autorizacao](https://github.com/cteotonio-fluxo-caixa/backend-autenticacao-autorizacao)
 <!--
 
 **Here are some ideas to get you started:**
