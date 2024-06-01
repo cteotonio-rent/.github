@@ -5,6 +5,8 @@ Um comerciante necessita de um sistema para gerenciar seu fluxo de caixa diário
 transações, tanto entradas (créditos) quanto saídas (débitos). Além disso, é essencial que o sistema possa 
 fornecer um relatório que apresente o saldo consolidado no final de cada dia.
 
+
+<img src="https://github.com/cteotonio-rent/documentacao/blob/main/src/Architecture%20Diagram.svg" />
 <!--
 
 **Here are some ideas to get you started:**
