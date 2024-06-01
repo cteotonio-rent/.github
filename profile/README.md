@@ -48,7 +48,24 @@ Fornece recursos de persistência.
 <img src="https://github.com/cteotonio-rent/documentacao/blob/main/src/Arquitetura%20do%20Software.svg" />
 
 - **Communication**: Contém os ViewsModels (Objetos de Requests e Responses)  
-- **Exceptions**: Contém as classes de exceções do projetos, além de um recurso para que o projeto suporte multiplos idiomas  
+- **Exceptions**: Contém as classes de exceções do projetos, além de um recurso para que o projeto suporte multiplos idiomas
+
+## Ferramentas
+- Microsoft Visual Studio Community 2022 (64 bits) - Versão 17.8.4 (https://visualstudio.microsoft.com/pt-br/vs/community/)
+- Linguagem de programação .Net Core 12
+- SDK NET 8 (Fornece suporte a longo prazo) (https://dotnet.microsoft.com/pt-br/download/dotnet/8.0)
+- Gerenciador de Banco de Dados MongoDB
+- Gerenciador de Filas de Mensagens AWS SQS
+- Gerenciador de arquivos S3
+- LocalStack(https://github.com/localstack/localstack) (Conjunto de ferramenta que simula um ambiente Cloud, neste caso AWS)
+- Docker Desktop para Windows Versão 4.27.1 (https://www.docker.com/)
+- WSL 2 (https://apps.microsoft.com/detail/9P9TQF7MRM4R?hl=pt-br&gl=BR)
+- Draw.io para criação do Diagrama de Arquitetura
+- DbSchema 9.5.4 para criação Digrama de Banco de Dados
+- Terraform para provisionamento de infra (inclusive no LocalStack)
+- Git Bash Versão 2.43.0.windows.1 (https://git-scm.com/downloads)
+- Terminal do Windows Versão 1.18 (https://apps.microsoft.com/detail/9N0DX20HK701?hl=pt-br&gl=BR)
+- 
 <!--
 
 **Here are some ideas to get you started:**
