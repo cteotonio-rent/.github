@@ -79,24 +79,24 @@ Fornece recursos de persistência.
 ## Instalação e Configuração do ambiente
 - Ferramentas: Visual Studio, SDK NET 8, Docker Desktop, WSL 2, Draw.io, DbSchema, Git Bash e Terminal do Windows(Opcional) seguir as orientações do site oficial de cada um.
 - Para Terraform e Localstack seguir os passos abaixo
-1) Python -> Baixe e instale o Python a partir do site oficial. Certifique-se de adicionar o Python ao PATH durante a instalação.
-2) AWS CLI -> Baixe e instale o AWS CLI a partir do site oficial. Execute o comando aws configure para configurar suas credenciais da AWS.
-3) LocalStack
+1) **Python** -> Baixe e instale o Python a partir do site oficial. Certifique-se de adicionar o Python ao PATH durante a instalação.
+2) **AWS CLI** -> Baixe e instale o AWS CLI a partir do site oficial. Execute o comando aws configure para configurar suas credenciais da AWS.
+3) **LocalStack**
 - 3.1) Abra o PowerShell ou o Prompt de Comando como administrador
 - 3.2) Instale o LocalStack com o seguinte comando
 - 3.3) pip install localstack
-4) Terraform -> Baixe e instale o Terraform a partir do site oficial.
+4) **Terraform** -> Baixe e instale o Terraform a partir do site oficial.
 - 4.1) Adicione o diretório de instalação do Terraform ao PATH do sistema.
 - 4.2) Faça o clone do repositório do [github](https://github.com/hashicorp/terraform)
 - 4.3) Abra o PowerShell ou o Prompt de Comando. (Aqui eu uso Terminal do Windows pois permite abrir outros prompts na mesma janela)
 - 4.4) Navegue até o diretório raiz do projeto onde você clonou o repositório do LocalStack
 - 4.5) Execute o seguinte comando para iniciar o LocalStack em um contêiner Docker
-- 4.6) docker-compose up -d
+- 4.6) **docker-compose up -d**
 - 4.7) No diretório onde estão os arquivos de configuração do Terraform, execute (Normalmente em: localstack\tests\aws\terraform)
-- 4.8) terraform init
-- 4.9) terraform apply --auto-approve
+- 4.8) **terraform init**
+- 4.9) **terraform apply --auto-approve**
 
-- Para testar:
+### Para testar:
 1) No seu Browser digite o seguinte endereço https://app.localstack.cloud/
 2) Se solicitar um autenticação, você pode logar com sua conta do github ou criar um nova
 
