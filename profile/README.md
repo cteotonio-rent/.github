@@ -74,7 +74,7 @@ Fornece recursos de persistência.
 - [Documentação](https://github.com/cteotonio-rent/documentacao) -> Contém os arquivos e imagens utilizados nesta página
 - [Serviço de Locação](https://github.com/cteotonio-rent/service-user) -> Contém o código fonte do projeto 
 - [Docker](https://github.com/cteotonio-rent/docker) -> Contém os arquivos para inicialização dos ambientes
-<!--
+
 
 ## Instalação e Configuração do ambiente
 - Ferramentas: Visual Studio, SDK NET 8, Docker Desktop, WSL 2, Draw.io, DbSchema, Git Bash e Terminal do Windows(Opcional) seguir as orientações do site oficial de cada um.
@@ -102,7 +102,7 @@ Se solicitar um autenticação, você pode logar com sua conta do github ou cria
 
 
 
-
+<!--
 **Here are some ideas to get you started:**
 
 🙋‍♀️ A short introduction - what is your organization all about?
