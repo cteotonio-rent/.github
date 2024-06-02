@@ -96,8 +96,8 @@ Fornece recursos de persistência.
 
 ### Pasta Raiz
 - [Documentação](https://github.com/cteotonio-rent/documentacao) -> Contém os arquivos e imagens utilizados nesta página
-- [Serviço de Locação](https://github.com/cteotonio-rent/service-user) -> Contém o código fonte do projeto 
-- [Docker](https://github.com/cteotonio-rent/docker) -> Contém os arquivos para inicialização dos ambientes
+- [Serviço de Locação](https://github.com/cteotonio-rent/service-user) -> Contém o código fonte do projeto e instruções para testes unitários e integrados
+- [Docker](https://github.com/cteotonio-rent/docker) -> Contém os arquivos para inicialização dos ambientes e instruções para simulação de um ambiente produtivo
 
 <!--
 **Here are some ideas to get you started:**
