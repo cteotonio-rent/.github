@@ -67,16 +67,41 @@ Fornece recursos de persistência.
 - [Terminal do Windows Versão 1.18](https://apps.microsoft.com/detail/9N0DX20HK701?hl=pt-br&gl=BR)
 
 ## Repositórios
-  Este projeto contempla 5 reposórios é recomendado que estes esteja seja clonados no mesmo diretórios ficando com a seguinte estrutura.
+  Este projeto contempla 3 reposórios é recomendado que estes esteja seja clonados no mesmo diretórios ficando com a seguinte estrutura.
   Aproveite para acessar cadas um deles e verificar sua documentação
 
 ### Pasta Raiz
-- [docker](https://github.com/cteotonio-fluxo-caixa/docker)
-- [backend-transacoes](https://github.com/cteotonio-fluxo-caixa/backend-transacoes)
-- [backend-relatorios](https://github.com/cteotonio-fluxo-caixa/backend-relatorios)
-- [backend-usuarios](https://github.com/cteotonio-fluxo-caixa/backend-usuarios)
-- [backend-autenticacao-autorizacao](https://github.com/cteotonio-fluxo-caixa/backend-autenticacao-autorizacao)
+- [Documentação](https://github.com/cteotonio-rent/documentacao) -> Contém os arquivos e imagens utilizados nesta página
+- [Serviço de Locação](https://github.com/cteotonio-rent/service-user) -> Contém o código fonte do projeto 
+- [Docker](https://github.com/cteotonio-rent/docker) -> Contém os arquivos para inicialização dos ambientes
 <!--
+
+## Instalação e Configuração do ambiente
+- Ferramentas: Visual Studio, SDK NET 8, Docker Desktop, WSL 2, Draw.io, DbSchema, Git Bash e Terminal do Windows(Opcional) seguir as orientações do site oficial de cada um.
+- Para Terraform e Localstack seguir os passos abaixo
+1) Python -> Baixe e instale o Python a partir do site oficial. Certifique-se de adicionar o Python ao PATH durante a instalação.
+2) AWS CLI -> Baixe e instale o AWS CLI a partir do site oficial. Execute o comando aws configure para configurar suas credenciais da AWS.
+3) LocalStack
+3.1) Abra o PowerShell ou o Prompt de Comando como administrador
+3.2) Instale o LocalStack com o seguinte comando
+3.3) pip install localstack
+4) Terraform -> Baixe e instale o Terraform a partir do site oficial.
+4.1) Adicione o diretório de instalação do Terraform ao PATH do sistema.
+4.2) Faça o clone do repositório do [github](https://github.com/hashicorp/terraform)
+4.3) Abra o PowerShell ou o Prompt de Comando. (Aqui eu uso Terminal do Windows pois permite abrir outros prompts na mesma janela)
+4.4) Navegue até o diretório raiz do projeto onde você clonou o repositório do LocalStack
+4.5) Execute o seguinte comando para iniciar o LocalStack em um contêiner Docker
+4.6) docker-compose up -d
+4.7) No diretório onde estão os arquivos de configuração do Terraform, execute (Normalmente em: localstack\tests\aws\terraform)
+4.8) terraform init
+4.9) terraform apply --auto-approve
+
+- Para testar:
+No seu Browser digite o seguinte endereço https://app.localstack.cloud/
+Se solicitar um autenticação, você pode logar com sua conta do github ou criar um nova
+
+
+
 
 **Here are some ideas to get you started:**
 
