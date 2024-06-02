@@ -66,16 +66,6 @@ Fornece recursos de persistência.
 - [Git Bash Versão 2.43.0.windows.1](https://git-scm.com/downloads)
 - [Terminal do Windows Versão 1.18](https://apps.microsoft.com/detail/9N0DX20HK701?hl=pt-br&gl=BR)
 
-## Repositórios
-  Este projeto contempla 3 reposórios é recomendado que estes esteja seja clonados no mesmo diretórios ficando com a seguinte estrutura.
-  Aproveite para acessar cadas um deles e verificar sua documentação
-
-### Pasta Raiz
-- [Documentação](https://github.com/cteotonio-rent/documentacao) -> Contém os arquivos e imagens utilizados nesta página
-- [Serviço de Locação](https://github.com/cteotonio-rent/service-user) -> Contém o código fonte do projeto 
-- [Docker](https://github.com/cteotonio-rent/docker) -> Contém os arquivos para inicialização dos ambientes
-
-
 ## Instalação e Configuração do ambiente
 - Ferramentas: Visual Studio, SDK NET 8, Docker Desktop, WSL 2, Draw.io, DbSchema, Git Bash e Terminal do Windows(Opcional) seguir as orientações do site oficial de cada um.
 - Para Terraform e Localstack seguir os passos abaixo
@@ -100,7 +90,14 @@ Fornece recursos de persistência.
 1) No seu Browser digite o seguinte endereço https://app.localstack.cloud/
 2) Se solicitar um autenticação, você pode logar com sua conta do github ou criar um nova
 
+## Repositórios
+  Este projeto contempla 3 reposórios é recomendado que estes esteja seja clonados no mesmo diretórios ficando com a seguinte estrutura.
+  Aproveite para acessar cadas um deles e verificar sua documentação
 
+### Pasta Raiz
+- [Documentação](https://github.com/cteotonio-rent/documentacao) -> Contém os arquivos e imagens utilizados nesta página
+- [Serviço de Locação](https://github.com/cteotonio-rent/service-user) -> Contém o código fonte do projeto 
+- [Docker](https://github.com/cteotonio-rent/docker) -> Contém os arquivos para inicialização dos ambientes
 
 <!--
 **Here are some ideas to get you started:**
